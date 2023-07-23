@@ -1,0 +1,40 @@
+<!-- app.component.html -->
+
+<!-- Header Section -->
+<header>
+</header>
+
+<!-- Main Content Section -->
+<main>
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Login</h4>
+            <ul class="nav nav-tabs" id="loginTab" role="tablist">
+              <!-- <li class="nav-item" *ngFor="let type of ['User', 'Admin', 'Seller']; let i = index;"> -->
+              <!-- Use Angular's RouterLink directive to navigate to corresponding login page -->
+              <!-- <a class="nav-link" [class.active]="i === 0" [routerLink]="[type.toLowerCase() + '-auth']" role="tab"
+                  [attr.aria-controls]="type.toLowerCase()" [attr.aria-selected]="i === 0">{{type}}</a>
+              </li> -->
+              <ul class="nav-item">
+                <li><a routerLink="/user-auth">USER</a></li>
+              </ul>
+              <ul class="nav-item">
+                <li><a routerLink="/seller-auth">PARTNER-SELLER</a></li>
+              </ul>
+              <ul class="nav-item">
+                <li><a routerLink="/admin-auth">Admin</a></li>
+              </ul>
+            </ul>
+            <div class="tab-content" id="loginTabContent">
+              <!-- Add the corresponding router-outlet to display the login components -->
+              <router-outlet></router-outlet>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
