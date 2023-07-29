@@ -1,0 +1,736 @@
+{
+  "seller": [
+    {
+      "name": "sam sidhu",
+      "email": "sam@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "peter",
+      "password": "abc@123",
+      "email": "peter@test.com",
+      "id": 3
+    },
+    {
+      "name": "bruce",
+      "password": "abc@123",
+      "email": "bruce@test.com",
+      "id": 4
+    },
+    {
+      "name": "anil",
+      "password": "abc123",
+      "email": "anil@test.com",
+      "id": 5
+    },
+    {
+      "name": "alena",
+      "password": "abc123",
+      "email": "alena@test.com",
+      "id": 6
+    },
+    {
+      "name": "sam",
+      "password": "abc@123",
+      "email": "sam@test.com",
+      "id": 7
+    },
+    {
+      "name": "bhasker",
+      "password": "abc@123",
+      "email": "bhasker@test.com",
+      "id": 8
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 10
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore12",
+      "email": "padmaraj@gmail.com",
+      "id": 11
+    },
+    {
+      "name": "test",
+      "password": "1234",
+      "email": "test@gmail.com",
+      "id": 12
+    },
+    {
+      "name": "test",
+      "password": "1234",
+      "email": "test@gmail.com",
+      "id": 13
+    },
+    {
+      "name": "test",
+      "password": "1234",
+      "email": "test@gmail.com",
+      "id": 14
+    },
+    {
+      "name": "test",
+      "password": "1234",
+      "email": "test@gmail.com",
+      "id": 15
+    },
+    {
+      "name": "test",
+      "password": "1234",
+      "email": "test@gmail.com",
+      "id": 16
+    },
+    {
+      "name": "test",
+      "password": "1234",
+      "email": "test@gmail.com",
+      "id": 17
+    },
+    {
+      "name": "test",
+      "password": "1234",
+      "email": "test@gmail.com",
+      "id": 18
+    },
+    {
+      "name": "test",
+      "password": "1234",
+      "email": "test@gmail.com",
+      "id": 19
+    }
+  ],
+  "products": [
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "category": "mobile",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": 1
+    },
+    {
+      "name": "I phone 14",
+      "price": "100000",
+      "category": "mobile",
+      "color": "black",
+      "description": "An Apple Product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": 2
+    },
+    {
+      "name": "HP Laptop",
+      "price": "50000",
+      "category": "Laptop",
+      "color": "black",
+      "description": "Hp laptop for student and professionals",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "id": 3
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "5000",
+      "category": "Jeans",
+      "color": "blue",
+      "description": "Confirmable jeans for man ",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "id": 5
+    },
+    {
+      "name": "Truck",
+      "price": "Toy",
+      "category": "Toys",
+      "color": "Red",
+      "description": "A toy for 5 year old child",
+      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
+      "id": 6
+    },
+    {
+      "name": "Noise Smart Watch",
+      "price": "2000",
+      "category": "Watch",
+      "color": "Black",
+      "description": "Noise smart watch for man and women both",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
+      "id": 7
+    },
+    {
+      "name": "Laptop Dell",
+      "price": "30000",
+      "category": "Electronic",
+      "color": "red",
+      "description": "Wide design, UHD screen",
+      "image": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/7/Y/7Y898PA-1_T1686800012.png",
+      "id": 8
+    },
+    {
+      "name": "Cake",
+      "price": "100",
+      "category": "Food",
+      "color": "Blue",
+      "description": "Blueberry Cake",
+      "image": "https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcR8C8noXy-gngMs_Kyw1_Nrqj5LaTElvn6lpwAj47fLPmdpPyagoZkpYZCLAs0riqs1",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "name": "anil",
+      "email": "anil@user.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "hyden",
+      "email": "hyden@user.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "abc123",
+      "id": 4
+    },
+    {
+      "name": "padmaraj",
+      "email": "padmaraj@gmail.com",
+      "password": "kore123",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "padmaraj@gmail.com",
+      "password": "kore123",
+      "id": 6
+    },
+    {
+      "name": "padmaraj1342",
+      "email": "padmaraj1ad@gmail.com",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "name": "user",
+      "email": "user@gmail.com",
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "name": "user",
+      "email": "user@gmail.com",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "1234",
+      "id": 10
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "1234",
+      "id": 11
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "1234",
+      "id": 12
+    },
+    {
+      "name": "testUser",
+      "email": "testuser@gmail.com",
+      "password": "1234",
+      "id": 13
+    },
+    {
+      "name": "naveen",
+      "email": "naveenpappu@gmail.com",
+      "password": "123",
+      "id": 14
+    }
+  ],
+  "cart": [
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "category": "mobile",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 3,
+      "id": 7
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "5000",
+      "category": "Jeans",
+      "color": "blue",
+      "description": "Confirmable jeans for man ",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "quantity": 1,
+      "productId": 5,
+      "userId": 3,
+      "id": 8
+    }
+  ],
+  "orders": [
+    {
+      "email": "anil@user.com",
+      "address": "noida sector x",
+      "contact": "9999",
+      "totalPrice": 104750,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "anil@test.com",
+      "address": "noida sector x",
+      "contact": "8877",
+      "totalPrice": 6100,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 650,
+      "userId": 5,
+      "id": 4
+    },
+    {
+      "email": "shubhams7026@gmail.com",
+      "address": "NPCI sy no 250 part of narsingi Gandipet Ranga Reddy District beside Jaybheri apartment",
+      "contact": "DCA",
+      "totalPrice": 100100,
+      "userId": 9,
+      "id": 8
+    },
+    {
+      "email": "user@gmail.com",
+      "address": "NPCI sy no 250 part of narsingi Gandipet Ranga Reddy District beside Jaybheri apartment",
+      "contact": "123",
+      "totalPrice": 650,
+      "userId": 9,
+      "id": 9
+    },
+    {
+      "email": "shubhams7026@gmail.com",
+      "address": "NPCI sy no 250 part of narsingi Gandipet Ranga Reddy District beside Jaybheri apartment",
+      "contact": "123",
+      "totalPrice": 650,
+      "userId": 9,
+      "id": 10
+    },
+    {
+      "email": "user@gmail.com",
+      "address": "NPCI sy no 250 part of narsingi Gandipet Ranga Reddy District beside Jaybheri apartment",
+      "contact": "123",
+      "totalPrice": 650,
+      "userId": 9,
+      "id": 11
+    },
+    {
+      "email": "user@gmail.com",
+      "address": "NPCI sy no 250 part of narsingi Gandipet Ranga Reddy District beside Jaybheri apartment",
+      "contact": "123",
+      "totalPrice": 650,
+      "userId": 9,
+      "id": 12
+    },
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 650,
+      "userId": 9,
+      "id": 13
+    },
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 1750,
+      "userId": 9,
+      "id": 14
+    },
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 50550,
+      "userId": 9,
+      "id": 15
+    },
+    {
+      "email": "testuser@gmail.com",
+      "address": "Hyderabad",
+      "contact": "12356789",
+      "totalPrice": 550,
+      "userId": 13,
+      "id": 16
+    },
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 550,
+      "userId": 13,
+      "id": 17
+    },
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 5550,
+      "userId": 9,
+      "id": 18
+    },
+    {
+      "email": "naveenpappu@gmail.com",
+      "address": "Hyderabad",
+      "contact": "1234567",
+      "totalPrice": 1100,
+      "userId": 14,
+      "id": 19
+    }
+  ],
+  "admin": [
+    {
+      "email": "anil@test.com",
+      "address": "noida sector x",
+      "contact": "8877",
+      "totalPrice": 6100,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "name": "padmaraj",
+      "password": "Kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "padmaraj",
+      "password": "Kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "padmaraj",
+      "password": "Kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "padmaraj",
+      "password": "Kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "padmaraj",
+      "password": "Kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "padmaraj",
+      "password": "Kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "padmaraj",
+      "password": "raj1234",
+      "email": "padmaraj@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 11
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 12
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 13
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 14
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 15
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 16
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 17
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 18
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 19
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 20
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 21
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 22
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 23
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 24
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 25
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 26
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 27
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 28
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 29
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 30
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 31
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 32
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 33
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 34
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 35
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 36
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 37
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 38
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 39
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 40
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 41
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 42
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 43
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 44
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 45
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 46
+    },
+    {
+      "name": "padmaraj",
+      "password": "kore123",
+      "email": "padmaraj@gmail.com",
+      "id": 47
+    },
+    {
+      "name": "padmaraj",
+      "password": "wifi1234",
+      "email": "padmaraj@gmail.com",
+      "id": 48
+    },
+    {
+      "name": "padmaraj",
+      "password": "wifi1234",
+      "email": "padmaraj@gmail.com",
+      "id": 49
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 50
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 51
+    },
+    {
+      "name": "rutu",
+      "password": "1234",
+      "email": "rutu@gmail.com",
+      "id": 52
+    },
+    {
+      "name": "rutu",
+      "password": "1234",
+      "email": "rutu@gmail.com",
+      "id": 53
+    },
+    {
+      "name": "padmaraj@gmail.com",
+      "password": "kore123",
+      "email": "",
+      "id": 54
+    }
+  ]
+}

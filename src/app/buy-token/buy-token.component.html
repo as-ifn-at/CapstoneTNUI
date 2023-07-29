@@ -1,0 +1,22 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Buy Token</h4>
+                    <form #userLogin="ngForm" class="common-form" (ngSubmit)="buytokens(userLogin.value)">
+                        <div class="form-group">
+                            <label for="tokenamount">Token Amount</label>
+                            <input type="text" class="form-control" id="tokenamount" name="tokenamount" placeholder="Enter token amount" ngModel tokenamount #tokenamount="ngModel" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Enter username"  ngModel username #username="ngModel" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

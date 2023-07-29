@@ -1,0 +1,81 @@
+.product-header-image {
+    object-fit: contain;
+    width: 100%;
+    height: 600px;
+}
+
+.product-item {
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+}
+
+.product-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.product-item .product-details {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+
+.product-item .name-head {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.product-item h6 {
+    text-align: center;
+}
+
+.product-item .product-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+/* Add styles to create a container for the flip image effect */
+.user-image,
+.seller-image,
+.admin-image {
+    perspective: 800px;
+    /* Perspective creates the 3D effect */
+    width: 100px;
+    /* Set the width and height of the image container */
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+    /* Add a pointer cursor to indicate it's clickable */
+}
+
+/* Set the styles for the front and back images */
+.user-image img,
+.seller-image img,
+.admin-image img {
+    width: 100%;
+    height: 100%;
+    position: center;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    /* Hide the backface of the image */
+    transition: transform 0.5s;
+    /* Add a transition effect */
+}
+
+/* Flip the back image when hovering over the container */
+.user-image:hover .user-image-back,
+.seller-image:hover .seller-image-back,
+.admin-image:hover .admin-image-back {
+    transform: rotateY(0deg);
+}
+
+/* Rotate the front image when hovering over the container */
+.user-image:hover .user-image-front,
+.seller-image:hover .seller-image-front,
+.admin-image:hover .admin-image-front {
+    transform: rotateY(180deg);
+}

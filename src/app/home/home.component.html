@@ -1,0 +1,46 @@
+<!-- app.component.html -->
+<header>
+</header>
+
+<main>
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Login</h3>
+            <ul class="nav nav-tabs" id="loginTab" role="tablist">
+              <ul class="nav-item">
+                <!-- Add a container for the user image and apply the "user-image" class -->
+                <div class="user-image" (mouseenter)="flip('user')" (mouseleave)="unflip('user')">
+                  <img class="user-image-front" src="assets/user-front.png" alt="User">
+                  <!-- <img class="user-image-back" src="assets/user-front.png" alt="User"> -->
+                </div>
+                <li><a routerLink="/user-auth" style="padding: 25px;">USER</a></li>
+              </ul>
+              <ul class="nav-item">
+                <!-- Add a container for the seller image and apply the "seller-image" class -->
+                <div class="seller-image" (mouseenter)="flip('seller')" (mouseleave)="unflip('seller')">
+                  <img class="seller-image-front" src="assets/seller-back.jpg" alt="Seller" style="margin-left: 20px;">
+                  <!-- <img class="seller-image-back" src="assets/seller-back.jpg" alt="Seller"> -->
+                </div>
+                <li><a routerLink="/seller-auth">PARTNER-SELLER</a></li>
+              </ul>
+              <ul class="nav-item">
+                <!-- Add a container for the admin image and apply the "admin-image" class -->
+                <div class="admin-image" (mouseenter)="flip('admin')" (mouseleave)="unflip('admin')">
+                  <img class="admin-image-front" src="assets/admin-back.png">
+                  <!-- <img class="admin-image-back" src="assets/admin-back.png"> -->
+                </div>
+                <li><a routerLink="/admin-auth" style="padding: 20px;">Admin</a></li>
+              </ul>
+            </ul>
+            <div class="tab-content" id="loginTabContent">
+              <router-outlet></router-outlet>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

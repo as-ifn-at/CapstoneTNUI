@@ -1,0 +1,82 @@
+.product-header-image {
+    object-fit: contain;
+    width: 100%;
+    height: 600px;
+}
+
+.product-item {
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+}
+
+.product-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.product-item .product-details {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+
+.product-item .name-head {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.product-item h6 {
+    text-align: center;
+}
+
+.product-item .product-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Add styling for the Buy Token button container */
+.buy-tokens-container {
+    display: flex;
+    align-items: center;
+    /* Vertically align items in the container */
+    margin: 20px;
+    /* Add margin to create space around the button */
+}
+
+/* Add an empty div with a flex-grow property to push the button to the right */
+.spacer {
+    flex-grow: 1;
+}
+
+/* Add styling for the Buy Token button */
+.buy-tokens-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    /* Blue color for the button */
+    color: #ffffff;
+    /* White text color */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow effect */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Add a hover effect for the button */
+.buy-tokens-btn:hover {
+    background-color: #0056b3;
+    /* Slightly darker blue on hover */
+    transform: scale(1.05);
+    /* Increase the button size on hover */
+}
+
+/* Add a focus effect for accessibility */
+.buy-tokens-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+    /* Add a blue border on focus */
+}
